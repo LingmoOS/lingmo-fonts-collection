@@ -20,7 +20,7 @@ jobs:
         run: |
            ./build.sh FiraCodeFonts 6.2 "Fira Code Fonts" "fira-code"
       - name: Publish package to GitHub Packages
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: lingmo-font-fira-code
           path: lingmo-font-fira-code.deb
