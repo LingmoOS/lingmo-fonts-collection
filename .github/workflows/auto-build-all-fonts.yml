@@ -26,7 +26,12 @@ jobs:
            ./build.sh WenYuanMaruCN  0.600 "Wen Yuan Maru CN" "wen-yuan-maru-cn"
            ./build.sh WenJin-Mincho  1.000 "WenJin Mincho CN" "wenjin-mincho-cn"
            ./build.sh qiji-font-OCN  0.0.4 "Qiji Font Old CN" "qiji-font-old-cn"
-           
+           ./build.sh Hubot-Sans-en  1.0.1 "Hubot Sans Fonts" "hubot-sans-fonts"
+           ./build.sh Mona-Sans-All  1.0.1 "Mona Sans Family" "mona-Sans-family"
+           ./build.sh SmileySans-CN  2.0.1 "Smiley Sans Font" "smiley-sans-font"
+           ./build.sh Tiejili-SC-CN  1.100 "Tiejili Fonts CN" "tiejili-fonts-sc"
+           ./build.sh ZhudouSans-CN  2.000 "Zhudou Sans Font" "zhudou-sans-font"
+           ./build.sh Monaspace-All  1.101 "Mona Space Fonts" "mona-space-fonts"
            
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
@@ -40,4 +45,11 @@ jobs:
             lingmo-font-sarasa-gothic-cn.deb
             lingmo-font-wen-yuan-maru-cn.deb
             lingmo-font-wenjin-mincho-cn.deb
+            lingmo-font-qiji-font-old-cn.deb
+            lingmo-font-hubot-sans-fonts.deb
+            lingmo-font-mona-Sans-family.deb
+            lingmo-font-smiley-sans-font.deb
+            lingmo-font-tiejili-fonts-sc.deb
+            lingmo-font-zhudou-sans-font.deb
+            lingmo-font-mona-space-fonts.deb
             
