@@ -9,11 +9,13 @@
 本项目基于开源字体协议（OFL）1.1版授权，本项目字体目前仅包含OFL-1.1许可下的字体。
 
 This project is licensed under the Open Source Font Agreement (OFL) version 1.1.
+
 All the fonts in this project only include fonts under the OFL-1.1 license now.
 
 **请仔细阅读并理解下列所述协议许可，使用本项目的任何内容代表您已完全理解并完全同意所述内容**
 
 **Please carefully read and understand the following agreement licenses. **
+
 **The use of any content in this project represents that you have fully understood and agreed to the stated content**
 
 <details>
@@ -102,7 +104,7 @@ DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 </details>
 
-## 字体列表 Font Collect 
+## 字体列表 Font Collect
 
 |                    Font Name<br/>字体名称                    | Alias<br/>别名 | Version<br/>版本 |                       License<br/>许可                       | Individual<br/>个人免费 | Commercial<br/>商业免费 | 西文 | 简中 | 繁中 | 日语 | 韩文 | Repository<br/>仓库路径 |
 | :----------------------------------------------------------: | :------------: | :--------------: | :----------------------------------------------------------: | :---------------------: | :---------------------: | ---- | ---- | ---- | ---- | ---- | :---------------------: |
