@@ -18,19 +18,23 @@ jobs:
           
       - name: Run build all fonts
         run: |
-           ./build.sh FiraCodeFonts    6.2 "Fira Code Fonts"  "fira-code"
-           ./build.sh JetBrainsMono  2.304 "JetBrains Mono"   "jetbrains-mono"
+           ./build.sh FiraCodeFonts    6.2 "FiraCode Font EN" "firacode-font-en"
+           ./build.sh JetBrainsMono  2.304 "JetBrainsMono EN" "jetbrainsmono-en"
            ./build.sh MapleMonoNFCN 7.0b36 "Maple Mono NF CN" "maple-mono-nf-cn"
-           ./build.sh LxgwWenKai-CN  1.510 "Lxgw WenKai"      "lxgw-wen-kai"
+           ./build.sh LxgwWenKai-CN  1.510 "LxgwWenKai NF CN" "lxgw-wenkai-m-cn"
            ./build.sh Sarasa-Gothic 1.0.28 "Sarasa Gothic CN" "sarasa-gothic-cn"
+           ./build.sh WenYuanMaruCN  0.600 "Wen Yuan Maru CN" "wen-yuan-maru-cn"
+           ./build.sh WenJin-Mincho  1.000 "WenJin Mincho CN" "wenjin-mincho-cn"
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
         with:
           name: packages
           path: |
-            lingmo-font-fira-code.deb
-            lingmo-font-jetbrains-mono.deb
+            lingmo-font-firacode-font-en.deb
+            lingmo-font-jetbrainsmono-en.deb
             lingmo-font-maple-mono-nf-cn.deb
-            lingmo-font-lxgw-wen-kai.deb
+            lingmo-font-lxgw-wenkai-m-cn.deb
             lingmo-font-sarasa-gothic-cn.deb
+            lingmo-font-wen-yuan-maru-cn.deb
+            lingmo-font-wenjin-mincho-cn.deb
             
