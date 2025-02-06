@@ -125,3 +125,28 @@ THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
 |     [ZhudouSans](https://github.com/Buernia/Zhudou-Sans)     |    煮豆黑体    | 衍生来自Noto Sans思源黑体                                    | [Buernia](https://github.com/Buernia)              | X            |      2.000       | [OFL 1.1](https://github.com/Buernia/Zhudou-Sans/blob/main/LICENSE) |       ✔       |       ✔       | ✔    | ✔    | X    | X    | X    |                    |
 
 备注：✔-受到支持，X-不受支持，○-支持但尚未合入，*-不完全支持
+
+## 使用方式
+
+- 前往[testfont](https://lingmo.pika.net.cn/Mainland/testfont)下载deb包/获取下载链接，以**更纱黑体**为例：
+
+  ```bash
+  wget https://lingmo.pika.net.cn/d/Mainland/testfont/lingmo-font-sarasa-gothic-cn.deb
+  ```
+
+- 安装fontconfig：
+
+  ```bash
+  sudo apt install fontconfig
+  ```
+
+- 安装deb包：
+
+  ```bash
+  dpkg -i lingmo-font-sarasa-gothic-cn.deb
+  ```
+
+  
+
+
+
