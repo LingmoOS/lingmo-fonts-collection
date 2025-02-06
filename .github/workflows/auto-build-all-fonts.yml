@@ -14,7 +14,7 @@ jobs:
       - name: Set up environments
         run: |
           apt-get update && apt-get install -y dpkg-dev
-          chmod +x ./build.sh && chmod -R 644 cache/
+          chmod +x ./build.sh
           
       - name: Run build all fonts
         run: |
