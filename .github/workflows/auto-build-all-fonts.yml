@@ -36,7 +36,7 @@ jobs:
            ./build.sh IBM-Plex-Font  1.1.0 "IBM Plex Font EN" "ibm-plex-font-en"
            ./build.sh NotoSansCJKsc  1.101 "Noto Sans CJK SC" "noto-sans-cjk-sc"
            ./build.sh NotoSerif-CJK  1.101 "Noto Serif CJKSC" "noto-serif-cjksc"
-
+           ./build.sh RobotoMono-EN    3.0 "RobotoMono Fonts" "robotoMono-fonts" 
            
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
@@ -62,5 +62,5 @@ jobs:
             lingmo-font-ibm-plex-font-en.deb
             lingmo-font-noto-sans-cjk-sc.deb
             lingmo-font-noto-serif-cjksc.deb
-
+            lingmo-font-robotoMono-fonts.deb
             
