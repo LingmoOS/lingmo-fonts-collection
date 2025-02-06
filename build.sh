@@ -32,5 +32,5 @@ EOF
 cp ${font_path}/* "./cache/${dpkg_name}/usr/share/fonts/truetype/${dpkg_name}/"
 chmod 644 -R "./cache/${dpkg_name}/usr/share/fonts/truetype/"
 # 打包为 .deb 文件
-dpkg-deb --build "./cache/${dpkg_name}" "packages/${dpkg_name}.deb"
+dpkg-deb --build "./cache/${dpkg_name}" "${dpkg_name}.deb"
 echo "Package ${dpkg_name}.deb created successfully."
