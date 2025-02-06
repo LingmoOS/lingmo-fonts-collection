@@ -25,6 +25,9 @@ jobs:
            ./build.sh Sarasa-Gothic 1.0.28 "Sarasa Gothic CN" "sarasa-gothic-cn"
            ./build.sh WenYuanMaruCN  0.600 "Wen Yuan Maru CN" "wen-yuan-maru-cn"
            ./build.sh WenJin-Mincho  1.000 "WenJin Mincho CN" "wenjin-mincho-cn"
+           ./build.sh qiji-font-OCN  0.0.4 "Qiji Font Old CN" "qiji-font-old-cn"
+           
+           
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
         with:
