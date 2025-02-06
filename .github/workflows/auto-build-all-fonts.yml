@@ -1,0 +1,26 @@
+name: Build and Publish DEB Package
+
+on:
+  workflow_dispatch
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up environments
+        run: |
+          apt-get update && apt-get install -y dpkg-dev
+          chmod +x ./build.sh && chmod -R 644 ./
+          
+      - name: Run build all fonts
+        run: |
+           ./build.sh FiraCodeFonts 6.2 "Fira Code Fonts" "fira-code"
+      - name: Publish package to GitHub Packages
+        uses: actions/upload-artifact@v3
+        with:
+          name: lingmo-font-fira-code
+          path: lingmo-font-fira-code.deb
