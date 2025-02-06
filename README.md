@@ -6,17 +6,17 @@
 
 ## 使用许可 User License
 
-本项目基于开源字体协议（OFL）1.1版授权，本项目字体目前仅包含OFL-1.1许可下的字体。
+**本项目基于开源字体协议（OFL）1.1版授权，本项目字体目前仅包含OFL-1.1许可下的字体**
 
-This project is licensed under the Open Source Font Agreement (OFL) version 1.1.
+This project is licensed under the Open Source Font Agreement (OFL) version 1.1
 
-All the fonts in this project only include fonts under the OFL-1.1 license now.
+All the fonts in this project only include fonts under the OFL-1.1 license now
 
 **请仔细阅读并理解下列所述协议许可，使用本项目的任何内容代表您已完全理解并完全同意所述内容**
 
-**Please carefully read and understand the following agreement licenses. **
+Please carefully read and understand the following agreement licenses
 
-**The use of any content in this project represents that you have fully understood and agreed to the stated content**
+The use of any content in this project represents that you have fully understood and agreed to the stated content
 
 <details>
 <summary>《开源字体协议OFL》版本1.1</summary>
