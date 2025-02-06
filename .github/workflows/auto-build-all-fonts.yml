@@ -25,4 +25,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: packages
-          path: *.deb
+          path: |
+            lingmo-font-fira-code.deb
+            lingmo-font-jetbrains-mono.deb
+            lingmo-font-maple-mono-nf-cn.deb
