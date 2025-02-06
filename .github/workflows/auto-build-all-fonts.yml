@@ -18,9 +18,11 @@ jobs:
           
       - name: Run build all fonts
         run: |
-           ./build.sh FiraCodeFonts 6.2 "Fira Code Fonts" "fira-code"
+           ./build.sh FiraCodeFonts    6.2 "Fira Code Fonts" "fira-code"
+           ./build.sh JetBrainsMono  2.304 "JetBrains Mono" "jetbrains-mono"
+           ./build.sh MapleMonoNFCN 7.0b36 "Maple Mono NF CN" "maple-mono-nf-cn"
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
         with:
           name: packages
-          path: packages/*
+          path: packages
