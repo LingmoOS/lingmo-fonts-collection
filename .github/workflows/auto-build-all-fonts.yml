@@ -32,6 +32,11 @@ jobs:
            ./build.sh Tiejili-SC-CN  1.100 "Tiejili Fonts CN" "tiejili-fonts-sc"
            ./build.sh ZhudouSans-CN  2.000 "Zhudou Sans Font" "zhudou-sans-font"
            ./build.sh Monaspace-All  1.101 "Mona Space Fonts" "mona-space-fonts"
+           ./build.sh Inter-Font-EN    4.1 "Inter Tall Fonts" "inter-tall-fonts"
+           ./build.sh IBM-Plex-Font  1.1.0 "IBM Plex Font EN" "ibm-plex-font-en"
+           ./build.sh NotoSansCJKsc  1.101 "Noto Sans CJK SC" "noto-sans-cjk-sc"
+           ./build.sh NotoSerif-CJK  1.101 "Noto Serif CJKSC" "noto-serif-cjksc"
+
            
       - name: Publish package to GitHub Packages
         uses: actions/upload-artifact@v4
@@ -52,4 +57,10 @@ jobs:
             lingmo-font-tiejili-fonts-sc.deb
             lingmo-font-zhudou-sans-font.deb
             lingmo-font-mona-space-fonts.deb
+            lingmo-font-inter-tall-fonts.deb
+            lingmo-font-inter-tall-fonts.deb
+            lingmo-font-ibm-plex-font-en.deb
+            lingmo-font-noto-sans-cjk-sc.deb
+            lingmo-font-noto-serif-cjksc.deb
+
             
