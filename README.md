@@ -1,68 +1,14 @@
+# Lingmo OS Fonts Collection Repository
 
+## User License
 
-# Lingmo™ Fonts Collection Repository
+**This project is licensed under the SIL Open Font License (OFL) 1.1. All fonts are currently under OFL-1.1.**
 
-# 灵墨™ 桌面与操作系统字体仓库
-
-## 使用许可 User License
-
-**本项目基于开源字体协议（OFL）1.1版授权，本项目字体目前仅包含OFL-1.1许可下的字体**
-
-This project is licensed under the Open Source Font Agreement (OFL) version 1.1
-
-All the fonts in this project only include fonts under the OFL-1.1 license now
-
-**请仔细阅读并理解下列所述协议许可，使用本项目的任何内容代表您已完全理解并完全同意所述内容**
-
-Please carefully read and understand the following agreement licenses
-
-The use of any content in this project represents that you have fully understood and agreed to the stated content
+> ![Important]
+> By using any content from this repository, you acknowledge full understanding and acceptance of the terms below.
 
 <details>
-<summary>《开源字体协议OFL》版本1.1</summary>
-序言
-
-开放式字体许可证（OFL）的目标是促进世界范围内协作式字体项目的发展，支持学术界和语言界的字体创建工作，并提供一个自由开放的框架，在这个框架中，字体可以与其他人合作共享和改进。
-
-OFL允许许可字体自由使用、研究、修改和重新分发，只要它们不是自己出售的。字体，包括任何衍生作品，可以捆绑、嵌入、重新分发和/或与任何软件一起出售，前提是衍生作品不使用任何保留名称。但是，字体和衍生产品不能在任何其他类型的许可下发布。在本许可证下保留字体的要求不适用于使用字体或其衍生物创建的任何文档。
-
-定义
-
-“字体软件”是指版权持有人根据本许可证发布的文件集，并清楚地标记为该文件集。这可能包括源文件、构建脚本和文档。
-
-“保留字体名称”指版权声明后指定的任何名称。
-
-“原始版本”是指版权所有者分发的字体软件组件的集合。
-
-“修改版本”是指通过添加、删除或替换（部分或全部）原始版本的任何组件、更改格式或将字体软件移植到新环境而产生的任何衍生产品。
-
-“作者”是指任何设计师、工程师、程序员、技术作家或其他对字体软件作出贡献的人。
-
-许可和条件
-
-特此免费授予获得字体软件副本的任何人使用、研究、复制、合并、嵌入、修改、重新分发和出售字体软件的修改和未修改副本的权限，但须符合以下条件：
-
-1） 字体软件及其任何单个组件（原始版本或修改版本）均不得自行销售。
-
-2） 字体软件的原始或修改版本可与任何软件捆绑、重新分发和/或出售，前提是每份副本包含上述版权声明和本许可证。这些可以作为独立文本文件、人类可读的标题或文本或二进制文件中的适当机器可读元数据字段包括，只要这些字段可以被用户轻松查看。
-
-3） 除非获得相应版权持有人的明确书面许可，否则字体软件的任何修改版本均不得使用保留字体名称。此限制仅适用于呈现给用户的主字体名称。
-
-4） 版权持有人或字体软件作者的姓名不得用于宣传、背书或宣传任何修改版本，除非确认版权持有人和作者的贡献或获得其明确书面许可。
-
-5） 字体软件，无论是修改的还是未修改的，无论是部分还是全部，都必须根据本许可证进行分发，并且不得根据任何其他许可证进行分发。本许可证对字体的要求不适用于使用字体软件创建的任何文档。
-
-终止授权
-
-如果不满足上述任何条件，本许可证将无效。
-
-免责声明
-
-字体软件按“原样”提供，无任何明示或暗示的担保，包括但不限于对适销性、适用于特定用途以及不侵犯版权、专利、商标或其他权利的任何担保。在任何情况下，版权持有人均不对因使用或无法使用字体软件或字体软件的其他交易而产生的任何索赔、损害赔偿或其他责任承担责任，包括任何一般、特殊、间接、附带或后果性损害赔偿，无论是合同诉讼、侵权诉讼还是其他诉讼。
-</details>
-
-<details>
-<summary>SIL Open Font License 1.1</summary>
+<summary>SIL Open Font License 1.1 (Click to expand)</summary>
 PREAMBLE
 
 The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
@@ -104,9 +50,9 @@ DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 </details>
 
-## 字体列表 Font Collect
+## Font Collection
 
-|                    Font Name<br/>字体名称                    | Alias<br/>别名 | Intro<br/>简介                                               | Author<br/>发行商                                  | Pre<br/>预装 | Version<br/>版本 |                      License<br/>许可证                      | Ind.<br/>个人 | Com.<br/>商用 | 西文 | 简中 | 繁中 | 日语 | 韩文 | DebFile<br/>软件包 |
+|                    Font Name                    | Alias | Intro                                               | Author                                  | Pre-installed | Version |                      License                      | Ind. | Com. | Latin | SC | TC | JP | KR | DebFile |
 | :----------------------------------------------------------: | :------------: | ------------------------------------------------------------ | -------------------------------------------------- | ------------ | :--------------: | :----------------------------------------------------------: | :-----------: | :-----------: | ---- | ---- | ---- | ---- | ---- | :----------------: |
 |       [Fira Code](https://github.com/tonsky/FiraCode)        |   Fira Code    | 免费的编程连字的等宽字体                                     | [NikitaProkopov](https://github.com/tonsky)        | X            |       6.2        | [OFL 1.1](https://github.com/tonsky/FiraCode/blob/main/LICENSE) |       ✔       |       ✔       | ✔    | X    | X    | X    | X    |                    |
 | [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)  | JetBrains Mono | 为开发者设计的免费的字体                                     | [Jetbrains](https://www.jetbrains.com/)            | X            |      2.304       | [OFL 1.1](https://github.com/JetBrains/JetBrainsMono/blob/main/OFL.txt) |       ✔       |       ✔       | ✔    | X    | X    | X    | X    |                    |
@@ -126,29 +72,25 @@ THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
 |            [inter](https://github.com/rsms/inter)            |     Inter      | 有助于提高大小写混合文本的可读性                             | [Rasmus](https://github.com/rsms)                  | X            |       4.1        | [OFL 1.1](https://github.com/rsms/inter/blob/master/LICENSE.txt) |       ✔       |       ✔       | ✔    | X    | X    | X    | X    |                    |
 |           [IBM/plex](https://github.com/ibm/plex)            |    IBM Plex    | IBM Plex 字体是IBM公司企业字体                               | [IBM](https://github.com/IBM)                      | X            |      1.1.0       | [OFL 1.1](https://github.com/IBM/plex/blob/master/LICENSE.txt) |       ✔       |       ✔       | ✔    | X    | X    | X    | X    |                    |
 
-备注：✔-受到支持，X-不受支持，○-支持但尚未合入，*-不完全支持
+✔-Supported | ✗-Not Supported | ○-Planned
 
-## 使用方式
+## Installation Guide
 
-- 前往[testfont](https://lingmo.pika.net.cn/Mainland/testfont)下载deb包/获取下载链接，以**更纱黑体**为例：
+1. **Download Font Package**  
+   Visit [testfont repository](https://lingmo.pika.net.cn/Mainland/testfont). Example for Sarasa Gothic:
 
-  ```bash
-  wget https://lingmo.pika.net.cn/d/Mainland/testfont/lingmo-font-sarasa-gothic-cn.deb
-  ```
+   ```bash
+   wget https://lingmo.pika.net.cn/d/Mainland/testfont/lingmo-font-sarasa-gothic-cn.deb
+   ```
 
-- 安装fontconfig：
+2. **Install Dependencies**  
 
-  ```bash
-  sudo apt install fontconfig
-  ```
+   ```bash
+   sudo apt install fontconfig
+   ```
 
-- 安装deb包：
+3. **Install Font**  
 
-  ```bash
-  dpkg -i lingmo-font-sarasa-gothic-cn.deb
-  ```
-
-  
-
-
-
+   ```bash
+   sudo dpkg -i lingmo-font-sarasa-gothic-cn.deb
+   ```
