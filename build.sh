@@ -17,7 +17,7 @@ mkdir -p "./cache/${dpkg_name}/DEBIAN"
 mkdir -p "./cache/${dpkg_name}/usr/share/fonts/truetype/${dpkg_name}"
 
 # 创建 DEBIAN/control 文件
-cat > "./cache/${dpkg_name}/DEBIAN/control" <<EOF
+cat >"./cache/${dpkg_name}/DEBIAN/control" <<EOF
 Package: ${dpkg_name}
 Version: ${font_vers}
 Section: fonts
@@ -25,11 +25,11 @@ Priority: optional
 Architecture: all
 Depends: fontconfig
 Maintainer: Lingmo OS <team@lingmo.org>
-Description: Lingmo™ OS ${font_name} Fonts
+Description: Lingmo OS Fonts Collection: ${font_name}
  This package installs the ${font_name} font family.
 EOF
 
-cp ${font_path}/* "./cache/${dpkg_name}/usr/share/fonts/truetype/${dpkg_name}/"
+cp "${font_path}/*" "./cache/${dpkg_name}/usr/share/fonts/truetype/${dpkg_name}/"
 #chmod 644 -R "./cache/${dpkg_name}/usr/share/fonts/truetype/"
 
 # 打包为 .deb 文件
